@@ -78,19 +78,85 @@
 // agregarEdad que reciba como parametro una persona. En base a la fecha de nacimiento, agregar a esta persona la
 // propiedad edad con el numero correspondiente. Al terminar mostrar por consola estos dos objetos
 
-let persona1 = {
-    nombre: "Jesus",
-    anioDeNacimiento: 1991,
-};
-let persona2 = {
-    nombre: "Pedro",
-    anioDeNacimiento: 1988,
-};
-function agregarEdad(persona) {
-    persona.edad = 2023 - persona.anioDeNacimiento;
-};
-console.log(persona1, persona2);
-agregarEdad(persona1);
-agregarEdad(persona2);
-console.log(persona1, persona2);
+// let persona1 = {
+//     nombre: "Jesus",
+//     anioDeNacimiento: 1991,
+// };
+// let persona2 = {
+//     nombre: "Pedro",
+//     anioDeNacimiento: 1988,
+// };
+// function agregarEdad(persona) {
+//     persona.edad = 2023 - persona.anioDeNacimiento;
+// };
+// console.log(persona1, persona2);
+// agregarEdad(persona1);
+// agregarEdad(persona2);
+// console.log(persona1, persona2);
 
+// ---------------------------------------------------------------------------------------------------------------------
+
+// Actividad 6
+// Filtrar mayores de edad. Crear una funcion llamada filtrarMayoresDeEdad que reciba como parametro un array de
+// objetos personas y devuelva un array con las personas mayores de edad.
+
+// let personas = [{
+//     nombre: "Jesus",
+//     edad: 31,
+// }, {
+//     nombre: "Pedro",
+//     edad: 15,
+// }, {
+//     nombre: "Jose",
+//     edad: 36,
+// }]
+
+// function filtrarMayoresDeEdad(personas) {
+//     let mayorDeEdad = personas.filter(function (persona) {
+//         return persona.edad >= 18;
+//     })
+//     console.log(mayorDeEdad);
+// }
+// filtrarMayoresDeEdad(personas);
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+// Actividad 7
+// Repetir la actividad 5 pero aplicando el método forEach. Crear una función agregarEdad que reciba como parámetro una
+// matriz de personas. En base a la fecha de nacimiento, agregar a cada persona la edad de propiedad con el número
+// correspondiente.
+
+// let persona1 = {
+//     nombre: "Jesus",
+//     edad: 31,
+// }
+
+// let persona2 = {
+//     nombre: "Pedro",
+//     edad: 15,
+// }
+
+// let personas = [persona1, persona2]
+
+
+// // function filtrarMayoresDeEdad (personasArray){
+// //     let filtrados =[];
+// //     for (let persona of personasArray){
+// //         if(persona.edad >=18){
+// //             filtrados.push(persona);
+// //         }
+// //     }
+// //     console.log(filtrados)
+// // }
+// // filtrarMayoresDeEdad(personas);
+
+
+// function filtrarMayoresDeEdad(personasArray) {
+//     let filtrados = personasArray.filter(function (persona) {
+//         return persona.edad >= 18;
+//     })
+//     console.log(filtrados)
+// };
+// filtrarMayoresDeEdad(personas);
+
+// ---------------------------------------------------------------------------------------------------------------------
